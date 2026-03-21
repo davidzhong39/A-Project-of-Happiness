@@ -6,8 +6,8 @@
   "name":"Obj_enemy1",
   "overriddenProperties":[],
   "parent":{
-    "name":"HappinessV0.1",
-    "path":"HappinessV0.1.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"Obj_enemy_parent",
