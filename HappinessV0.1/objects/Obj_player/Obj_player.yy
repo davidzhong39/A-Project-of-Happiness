@@ -24,7 +24,7 @@
   "physicsGroup":1,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
-  "physicsObject":false,
+  "physicsObject":true,
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
@@ -33,11 +33,14 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_player_idle_down",
     "path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Obj_player_hitbox",
+    "path":"sprites/Obj_player_hitbox/Obj_player_hitbox.yy",
+  },
   "visible":true,
 }

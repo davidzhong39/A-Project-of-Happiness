@@ -1,9 +1,9 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":14,"path":"folders/Fonts.yy",},
-    {"name":"Scripts","order":15,"path":"folders/Scripts.yy",},
     {"name":"Objects","order":13,"path":"folders/Objects.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":15,"path":"folders/Scripts.yy",},
     {"name":"Sprites","order":7,"path":"folders/Sprites.yy",},
     {"name":"Turn Based Battle","order":4,"path":"folders/Sprites/Turn Based Battle.yy",},
   ],
@@ -14,6 +14,7 @@
     {"name":"Obj_enemy1","order":2,"path":"objects/Obj_enemy1/Obj_enemy1.yy",},
     {"name":"obj_enemy2","order":4,"path":"objects/obj_enemy2/obj_enemy2.yy",},
     {"name":"Obj_player","order":3,"path":"objects/Obj_player/Obj_player.yy",},
+    {"name":"Obj_player_hitbox","order":6,"path":"sprites/Obj_player_hitbox/Obj_player_hitbox.yy",},
     {"name":"spr_box","order":5,"path":"sprites/spr_box/spr_box.yy",},
     {"name":"spr_button_heavy","order":1,"path":"sprites/spr_button_heavy/spr_button_heavy.yy",},
     {"name":"spr_button_light","order":2,"path":"sprites/spr_button_light/spr_button_light.yy",},
