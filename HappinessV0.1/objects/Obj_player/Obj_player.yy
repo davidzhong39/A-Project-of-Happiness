@@ -13,8 +13,8 @@
   "name":"Obj_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"HappinessV0.1",
+    "path":"HappinessV0.1.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -24,7 +24,7 @@
   "physicsGroup":1,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
-  "physicsObject":false,
+  "physicsObject":true,
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
@@ -33,11 +33,14 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_player_idle_down",
     "path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_col_map",
+    "path":"sprites/spr_col_map/spr_col_map.yy",
+  },
   "visible":true,
 }
