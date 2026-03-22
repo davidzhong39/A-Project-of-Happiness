@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 # Bubbles and Butterflies
+=======
+# The Fight for Happiness
+>>>>>>> Stashed changes
 
 ## Overview
 

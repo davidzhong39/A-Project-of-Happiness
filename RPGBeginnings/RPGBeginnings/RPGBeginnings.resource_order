@@ -1,9 +1,0 @@
-{
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[
-    {"name":"Obj_enemy_parent","order":3,"path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},
-    {"name":"Obj_enemy1","order":4,"path":"objects/Obj_enemy1/Obj_enemy1.yy",},
-    {"name":"Obj_player","order":1,"path":"objects/Obj_player/Obj_player.yy",},
-    {"name":"TileSet1","order":2,"path":"tilesets/TileSet1/TileSet1.yy",},
-  ],
-}
