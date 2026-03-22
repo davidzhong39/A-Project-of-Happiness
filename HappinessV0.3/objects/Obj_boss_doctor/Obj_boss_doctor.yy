@@ -17,7 +17,7 @@
   "physicsGroup":1,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
-  "physicsObject":false,
+  "physicsObject":true,
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
@@ -26,8 +26,14 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"boss_doctor_down",
+    "path":"sprites/boss_doctor_down/boss_doctor_down.yy",
+  },
+  "spriteMaskId":{
+    "name":"boss_doctor_hitbox",
+    "path":"sprites/boss_doctor_hitbox/boss_doctor_hitbox.yy",
+  },
   "visible":true,
 }

@@ -25,3 +25,9 @@ if(keyboard_check_pressed(vk_space)){
     _inst.image_angle = facing;
     _inst.damage *= damage;
 }
+
+window_set_fullscreen(true);
+
+if (keyboard_check_pressed(vk_escape)) {
+    game_end(); // Ends the game session
+}
