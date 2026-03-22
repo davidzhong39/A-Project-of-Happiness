@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_boss_depression",
+  "%Name":"Obj_item_pill",
   "eventList":[],
   "managed":true,
-  "name":"Obj_boss_depression",
+  "name":"Obj_item_pill",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_boss_depression",
-    "path":"sprites/spr_boss_depression/spr_boss_depression.yy",
+    "name":"spr_pills",
+    "path":"sprites/spr_pills/spr_pills.yy",
   },
   "spriteMaskId":null,
   "visible":true,
