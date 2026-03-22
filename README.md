@@ -1,22 +1,220 @@
-# A-Project-of-Happiness
-This is for the WiCS Hackathon March 2026 
+# Bubbles and Butterflies
 
-Ideas:
-Farming, cooking, painting, dungeon-crawler,  ? 
-Gambling mechanics
-Roguelike ; Checkpoints and respawn mechanics
-Happiness-centered mechanic (maybe a happiness-meter?) with cloud-nine or debuffs based on happiness
-Add a bar in the game with alcohol mechanic
+## Overview
 
+The Fight for Happiness is a psychological narrative game built in GameMaker.
+The game focuses on dialogue, perception, and mental state.
+You move through shifting environments that reflect therapy, medication, depression, and distorted reality.
 
+The experience starts grounded and slowly becomes unstable.
+Gameplay evolves alongside the character’s mental state.
 
-PYRO from TF2- game of incorrect perception of happiness. You see the world as a delusional person who spreads joy and happiness while in reality you are spreading death and destruction. 
-Kill the doctor as the final villain
-the lower the happiness meter gets, the more demented the game seems, showing the real world. You die if you havent reached the final ending
+---
 
+## Development
 
-currency is used to buy the pills that keep happiness up
-fake currency is innocent like candy
-real currency is money that you obtain through robbing people
+Built using GameMaker.
 
-protagonist is an adult who is diagnosed with a horrible disease. You are given pills by a doctor to keep your happiness up. cure is in the first room (dr's office) behind a code lock that you only open with a code you get through the final boss or smthk
+Core structure:
+
+* Rooms for each level and sequence
+* Sprites for characters, environments, and visual distortion
+* Scripts for dialogue, inventory, combat, and progression systems
+
+Design approach:
+
+* Modular rooms for each stage of the story
+* Reusable scripts for dialogue and interaction
+* Visual changes driven by state changes and progression
+
+---
+
+## Core Features
+
+### Dialogue System
+
+* Drives the narrative
+* Controls pacing and transitions
+* Used heavily in early gameplay
+
+### Inventory System
+
+* Stores pills and weapons
+* Supports progression and interaction
+
+### Combat System
+
+* Introduced in Wonderland
+* Expands with enemies and bosses
+
+### Visual State Changes
+
+* Environments shift over time
+* Sprites become damaged or altered
+* Reflects mental deterioration
+
+---
+
+## Level Structure
+
+### 1. Introduction
+
+* Psychological dialogue focus
+* Establishes tone and themes
+* Minimal gameplay
+
+### 2. Doctor’s Office
+
+* Interior environment
+* Introduces:
+
+  * Inventory system
+  * Pills as key item
+  * Doctor character
+* Dialogue transitions to next area
+
+### 3. Open Street
+
+* Free movement
+* Normal world state
+* Player is instructed to take pills
+
+### 4. Wonderland
+
+* Free-roam environment
+* Introduces:
+
+  * Enemies
+  * Weapons
+  * Winding paths
+* Slightly saturated visuals
+* Enemy 1 appears
+
+### 5. Wonderland Variant
+
+* Increased difficulty
+* Enemy 2 introduced
+
+### 6. Distorted Wonderland
+
+* Higher difficulty
+* Damaged environments
+* Altered sprites
+* Enemy 3 introduced
+
+### 7. Boss Fight: Doctor
+
+* Moving boss
+* Attacks using pills and pill bottles
+
+### 8. Return Path
+
+* Backtracking through altered levels
+* Connected to Level 6
+
+### 9. Continued Return
+
+* Further environmental distortion
+* Connected to Level 5
+
+### 10. Final Boss: Depression
+
+* Void-like white stage
+* Laser-based attacks
+* Represents internal struggle
+
+---
+
+## Systems
+
+### Timeline System
+
+* Text-driven progression
+* Events trigger in sequence
+
+Key events:
+
+* Therapy diagnosis
+* Receiving pills
+* Entering Wonderland
+* Boss encounters
+* Doctor reappearance, possibly fake
+
+---
+
+### Flashbacks System
+
+* Triggered during gameplay
+* Shows past events and damage
+* Alters visuals and mechanics
+
+---
+
+### Progression
+
+#### Items
+
+* Pills are central
+* Affect perception and gameplay
+
+#### Weapons
+
+* Found in Wonderland
+* Used for combat
+
+#### Enemies
+
+* Increase in difficulty each level
+* Change visually over time
+
+---
+
+## Choices and Endings
+
+### Player Choices
+
+* Fix reality
+* Embrace depression
+
+### Outcomes
+
+* Good ending:
+
+  * Player changes themselves
+* Bad ending:
+
+  * Player changes the world
+
+Final moments may use text-only sequences.
+
+---
+
+## Mechanics
+
+### Inventory
+
+* Holds pills and weapons
+* Supports interaction and progression
+
+### EXP System
+
+* Pun-based design
+* Inspired by Undertale
+* LOVE represents Level of Violence
+
+---
+
+## Design Notes
+
+* Atmosphere comes first
+* Gameplay ramps up gradually
+* Visual storytelling carries meaning
+* Reality becomes less reliable over time
+
+---
+
+## Summary
+
+The Fight for Happiness blends narrative and gameplay to reflect mental struggle.
+Each system supports the core idea of perception versus reality.
+The player experiences change through mechanics, visuals, and choice.
