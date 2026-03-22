@@ -25,3 +25,7 @@ if(keyboard_check_pressed(vk_space)){
     _inst.image_angle = facing;
     _inst.damage *= damage;
 }
+
+if (keyboard_check_pressed(vk_escape)) {
+    game_end();
+}
