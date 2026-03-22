@@ -37,8 +37,10 @@
     {"id":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},},
     {"id":{"name":"Obj_enemy1","path":"objects/Obj_enemy1/Obj_enemy1.yy",},},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},},
+    {"id":{"name":"Obj_GameNameTitle","path":"objects/Obj_GameNameTitle/Obj_GameNameTitle.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
     {"id":{"name":"Room_BB","path":"rooms/Room_BB/Room_BB.yy",},},
+    {"id":{"name":"Room_Credits","path":"rooms/Room_Credits/Room_Credits.yy",},},
     {"id":{"name":"Room_DoctorOffice","path":"rooms/Room_DoctorOffice/Room_DoctorOffice.yy",},},
     {"id":{"name":"Room_Menu","path":"rooms/Room_Menu/Room_Menu.yy",},},
     {"id":{"name":"Room_Original","path":"rooms/Room_Original/Room_Original.yy",},},
@@ -99,6 +101,7 @@
     {"roomId":{"name":"Room_Street","path":"rooms/Room_Street/Room_Street.yy",},},
     {"roomId":{"name":"Room_BB","path":"rooms/Room_BB/Room_BB.yy",},},
     {"roomId":{"name":"Room_Original","path":"rooms/Room_Original/Room_Original.yy",},},
+    {"roomId":{"name":"Room_Credits","path":"rooms/Room_Credits/Room_Credits.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
