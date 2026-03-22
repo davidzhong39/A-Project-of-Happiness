@@ -30,16 +30,24 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 // Hotbar
-var _Hotbar_slot_size = 55
-var _Hotbar_y = 650
-draw_sprite_stretched(spr_box, 0, 10, _Hotbar_y, _Hotbar_slot_size, _Hotbar_slot_size);
-draw_sprite_stretched(spr_box, 0, 75, _Hotbar_y, _Hotbar_slot_size, _Hotbar_slot_size);
-draw_sprite_stretched(spr_box, 0, 140, _Hotbar_y, _Hotbar_slot_size, _Hotbar_slot_size);
-draw_sprite_stretched(spr_box, 0, 205, _Hotbar_y, _Hotbar_slot_size, _Hotbar_slot_size);
-draw_sprite_stretched(spr_box, 0, 270, _Hotbar_y, _Hotbar_slot_size, _Hotbar_slot_size);
+var _Hotbar_slot_size = 55;
+var _Hotbar_y = 10;
+var _Hotbar_x = 1300;
 
-if(show_Pistol){ 
-draw_sprite_stretched(spr_pistol, 0, 10, _Hotbar_y + 5, _Hotbar_slot_size, _Hotbar_slot_size);
+var _Hotbar5 = _Hotbar_x - 10;
+var _Hotbar4 = _Hotbar_x - 75;
+var _Hotbar3 = _Hotbar_x - 140;
+var _Hotbar2 = _Hotbar_x - 205;
+var _Hotbar1 = _Hotbar_x - 270;
+
+draw_sprite_stretched(spr_box, 0, _Hotbar1, _Hotbar_y, _Hotbar_slot_size, _Hotbar_slot_size);
+draw_sprite_stretched(spr_box, 0, _Hotbar2, _Hotbar_y, _Hotbar_slot_size, _Hotbar_slot_size);
+draw_sprite_stretched(spr_box, 0, _Hotbar3, _Hotbar_y, _Hotbar_slot_size, _Hotbar_slot_size);
+draw_sprite_stretched(spr_box, 0, _Hotbar4, _Hotbar_y, _Hotbar_slot_size, _Hotbar_slot_size);
+draw_sprite_stretched(spr_box, 0, _Hotbar5, _Hotbar_y, _Hotbar_slot_size, _Hotbar_slot_size);
+
+if(show_Pistol){
+draw_sprite_stretched(spr_pistol, 0, _Hotbar1, _Hotbar_y + 5, _Hotbar_slot_size, _Hotbar_slot_size);
 }
 
 

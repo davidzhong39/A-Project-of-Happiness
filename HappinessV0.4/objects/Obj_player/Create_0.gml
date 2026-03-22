@@ -34,7 +34,5 @@ function add_pickup(_pickup_to_add){
     show_debug_message(pickups);
     show_debug_message(_pickup_to_add);
     show_Pistol = true;
-
-    
 }
 
