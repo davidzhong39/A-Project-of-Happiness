@@ -13,6 +13,8 @@
     {"name":"Obj_enemy_parent","order":1,"path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},
     {"name":"Obj_enemy1","order":2,"path":"objects/Obj_enemy1/Obj_enemy1.yy",},
     {"name":"obj_enemy2","order":4,"path":"objects/obj_enemy2/obj_enemy2.yy",},
+    {"name":"Obj_npc_parent","order":7,"path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},
+    {"name":"Obj_npc1","order":8,"path":"objects/Obj_npc1/Obj_npc1.yy",},
     {"name":"Obj_player","order":3,"path":"objects/Obj_player/Obj_player.yy",},
     {"name":"Building1_Burning","order":19,"path":"sprites/Building1_Burning/Building1_Burning.yy",},
     {"name":"Building1","order":18,"path":"sprites/Building1/Building1.yy",},
