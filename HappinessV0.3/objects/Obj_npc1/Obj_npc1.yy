@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"Obj_npc1",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"dialog","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.welcome_dialog",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",

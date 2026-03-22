@@ -14,8 +14,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"HappinessV0.1",
-    "path":"HappinessV0.1.yyp",
+    "name":"HappinessV0.3",
+    "path":"HappinessV0.3.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

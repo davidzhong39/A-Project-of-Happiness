@@ -17,8 +17,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"HappinessV0.1",
-    "path":"HappinessV0.1.yyp",
+    "name":"HappinessV0.3",
+    "path":"HappinessV0.3.yyp",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

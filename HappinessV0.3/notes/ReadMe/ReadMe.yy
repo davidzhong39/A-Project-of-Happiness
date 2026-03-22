@@ -4,8 +4,8 @@
   "name":"ReadMe",
   "openedOnFirstLoad":true,
   "parent":{
-    "name":"HappinessV0.1",
-    "path":"HappinessV0.1.yyp",
+    "name":"HappinessV0.3",
+    "path":"HappinessV0.3.yyp",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

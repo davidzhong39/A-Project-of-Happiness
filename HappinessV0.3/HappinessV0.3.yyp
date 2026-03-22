@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"HappinessV0.1",
+  "%Name":"HappinessV0.3",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -24,7 +24,7 @@
   "MetaData":{
     "IDEVersion":"2024.14.3.217",
   },
-  "name":"HappinessV0.1",
+  "name":"HappinessV0.3",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"ReadMe","path":"notes/ReadMe/ReadMe.yy",},},
