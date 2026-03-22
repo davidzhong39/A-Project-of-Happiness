@@ -1,0 +1,12 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"ReadMe",
+  "name":"ReadMe",
+  "openedOnFirstLoad":true,
+  "parent":{
+    "name":"HappinessV0.4",
+    "path":"HappinessV0.4.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

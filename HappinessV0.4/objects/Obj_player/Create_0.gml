@@ -1,0 +1,40 @@
+pickups = [];
+
+move_speed = 1;
+
+tilemap = layer_tilemap_get_id("Tiles_Collision");
+
+hp = 10;
+hp_total = hp;
+damage = 1;
+
+facing = 0;
+
+level = 1;
+xp = 0;
+xp_require = 100;
+
+show_Pistol = false
+
+function add_xp(_xp_to_add){
+    xp += _xp_to_add;
+    if (xp >= xp_require){
+       level++;
+        xp -= xp_require;
+        xp_require *= 1.4; 
+        
+        hp_total += 5;
+        hp = hp_total;
+        damage += 0.8;
+    }
+}
+
+function add_pickup(_pickup_to_add){
+    array_push(pickups, _pickup_to_add);
+    show_debug_message(pickups);
+    show_debug_message(_pickup_to_add);
+    show_Pistol = true;
+
+    
+}
+
