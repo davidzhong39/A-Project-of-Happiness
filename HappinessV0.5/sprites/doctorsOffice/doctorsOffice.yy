@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"doctorsOffice",
   "bboxMode":0,
-  "bbox_bottom":15,
-  "bbox_left":16,
-  "bbox_right":31,
+  "bbox_bottom":111,
+  "bbox_left":0,
+  "bbox_right":127,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"6c470de7-8ade-426a-9ab8-660a5a4bf27b","name":"6c470de7-8ade-426a-9ab8-660a5a4bf27b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"492e2e51-fa21-4a0f-b2a4-31aa5de7ddff","name":"492e2e51-fa21-4a0f-b2a4-31aa5de7ddff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9906e96a-cd4c-444f-ad63-af45c3e8d2dc","blendMode":0,"displayName":"default","isLocked":false,"name":"9906e96a-cd4c-444f-ad63-af45c3e8d2dc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"dd36f24f-0fbd-4bd5-b2a5-24a9fa30cc51","blendMode":0,"displayName":"default","isLocked":false,"name":"dd36f24f-0fbd-4bd5-b2a5-24a9fa30cc51","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"doctorsOffice",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c470de7-8ade-426a-9ab8-660a5a4bf27b","path":"sprites/doctorsOffice/doctorsOffice.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"58f2d886-de81-4759-9fc7-7a81c75df912","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"492e2e51-fa21-4a0f-b2a4-31aa5de7ddff","path":"sprites/doctorsOffice/doctorsOffice.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"33fdbef7-7f72-4cae-94ad-096ba69e0c84","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

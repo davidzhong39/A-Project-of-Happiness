@@ -3,7 +3,7 @@ if(instance_exists(Obj_dialog)) exit;
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _vert = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
-move_and_collide(_hor * move_speed, _vert * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
+move_and_collide(_hor * move_speed, _vert * move_speed, collisionMap, undefined, undefined, undefined, move_speed, move_speed);
 
 if(keyboard_check_pressed(ord("1"))) _Hotbar_Select = 0;
 if(keyboard_check_pressed(ord("2"))) _Hotbar_Select = 1;
@@ -47,4 +47,19 @@ if(keyboard_check_pressed(vk_space)){
     _bullet.image_angle = facing;
     _bullet.damage *= damage;
 }
+}
+
+if(dialogStarted && !instance_exists(Obj_dialog)){
+    
+    if(instance_exists(Obj_player)){
+        with(Obj_player){
+            if(!_Has_Pills){
+                add_pickup("Pills");
+                _Has_Pills = true;
+            }
+        }
+    }
+
+    room_goto(Room1_1);
+    dialogStarted = false;
 }

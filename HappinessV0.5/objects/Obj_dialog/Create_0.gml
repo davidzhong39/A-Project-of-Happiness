@@ -11,9 +11,6 @@ if (!variable_instance_exists(id, "current_message")) {
     current_message = 0;
 }
 
-current_char = 0;
-draw_message = "";
-
 char_speed = 0.5;
 input_key = vk_space;
 

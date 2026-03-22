@@ -51,6 +51,9 @@ if(show_Sword){
 draw_sprite_stretched(spr_Sword, 0, Sword_Place + 5, _Hotbar_y + 5, _Hotbar_slot_size - 10, _Hotbar_slot_size - 10);
 }
 
+if(_Has_Pills){
+    draw_sprite_stretched(Obj_item_pill, 0, Pills_Place + 5, _Hotbar_y + 5, _Hotbar_slot_size - 10, _Hotbar_slot_size - 10);
+}
 
 
 

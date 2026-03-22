@@ -9,11 +9,11 @@ function create_dialog(_messages){
 }   
 
 
-char_colors = {
-    "Congrats" : c_yellow,
-    "Cross" : c_yellow,
-    "Your Bitch Ass" : c_aqua
-}
+//char_colors = {
+    //"Congrats" : c_yellow,
+    //"Cross" : c_yellow,
+    //"Your Bitch Ass" : c_aqua
+//}
 
 
 welcome_dialog = [
@@ -36,4 +36,27 @@ welcome_dialog = [
     name: "Your Bitch Ass",
     msg: "Rot."
 },
+]
+
+doctor_dialog = [
+    {   
+        name: "Dr. House",
+        msg: "Welcome, I hear you are in need of antidepressants."
+    },
+    {   
+        name: "Yourself",
+        msg: "Yes, please, anything to make it all stop."
+    },
+    {   
+        name: "Dr. House",
+        msg: "I understand. Im going to perscribe you Sertraline 50mg - Take one per day."
+    },
+    {   
+        name: "Yourself",
+        msg: "Thank you so much doctor."
+    },
+    {   
+        name: "Dr. House",
+        msg: "You're most welcome."
+    },
 ]

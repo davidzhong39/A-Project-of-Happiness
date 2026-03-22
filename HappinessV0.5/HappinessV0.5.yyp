@@ -19,7 +19,9 @@
     {"$GMFolder":"","%Name":"Turn Based Battle","folderPath":"folders/Sprites/Turn Based Battle.yy","name":"Turn Based Battle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"TileSets","folderPath":"folders/TileSets.yy","name":"TileSets","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+  ],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -65,6 +67,7 @@
     {"id":{"name":"Obj_CreditsText2_1","path":"objects/Obj_CreditsText2_1/Obj_CreditsText2_1.yy",},},
     {"id":{"name":"Obj_CreditsText2","path":"objects/Obj_CreditsText2/Obj_CreditsText2.yy",},},
     {"id":{"name":"Obj_dialog","path":"objects/Obj_dialog/Obj_dialog.yy",},},
+    {"id":{"name":"ObJ_doctor","path":"objects/ObJ_doctor/ObJ_doctor.yy",},},
     {"id":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},},
     {"id":{"name":"Obj_enemy_parent1","path":"objects/Obj_enemy_parent1/Obj_enemy_parent1.yy",},},
     {"id":{"name":"Obj_enemy_parent2","path":"objects/Obj_enemy_parent2/Obj_enemy_parent2.yy",},},
@@ -196,6 +199,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room_Menu","path":"rooms/Room_Menu/Room_Menu.yy",},},
+    {"roomId":{"name":"Room_DoctorOffice","path":"rooms/Room_DoctorOffice/Room_DoctorOffice.yy",},},
     {"roomId":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_Original","path":"rooms/Room_Original/Room_Original.yy",},},
@@ -205,7 +209,6 @@
     {"roomId":{"name":"Room1_1_1","path":"rooms/Room1_1_1/Room1_1_1.yy",},},
     {"roomId":{"name":"Room_BB","path":"rooms/Room_BB/Room_BB.yy",},},
     {"roomId":{"name":"Room_Credits","path":"rooms/Room_Credits/Room_Credits.yy",},},
-    {"roomId":{"name":"Room_DoctorOffice","path":"rooms/Room_DoctorOffice/Room_DoctorOffice.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
